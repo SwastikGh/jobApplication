@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Job Application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="applyBox">
+            <div class="title">
+                <h1>Job Application<span>(Web)</span></h1>
+            </div>
+            <form action="">
+                <div class="formContainer">
+                    <div class="firstName section">
+                        <label for="firstName">First Name</label>
+                        <input 
+                            id="firstName" 
+                            placeholder="  Enter your first name ..."
+                            name= "firstName">
+                    </div>
+                    <div class="lastName section">
+                        <label for="lastName">Last Name</label>
+                        <input 
+                            id="lastName" 
+                            placeholder="  Enter your last name ..."
+                            name= "lastName">
+                    </div>
+                    <div class="email section">
+                        <label for="email">Email ID</label>
+                        <input 
+                            id="email" 
+                            type="email"
+                            placeholder="  Enter your email id ..."
+                            name= "email">
+                    </div>
+                    <div class="dept section">
+                        <label for="department">Department</label>
+                        <select>
+                            <option value="">Select</option>
+                            <option value="cse">CSE</option>
+                            <option value="cseDS">CSE-DS</option>
+                            <option value="cseAIML">CSE-AIML</option>
+                        </select>
+                    </div>
+                    <div class="address section">
+                        <label for="address">Address</label>
+                        <textarea 
+                            id="address" 
+                            name="address" 
+                            rows="4" 
+                            cols="50"
+                            placeholder=" Enter your address ..."
+                        ></textarea>
+                    </div>
+                    <div class="dob section">
+                        <label for="dob">Date of Birth</label>
+                        <input 
+                            id="dob" 
+                            type="date"
+                            name= "date">
+                    </div>
+                    <div class="cv section">
+                        <label for="cv">Upload CV</label>
+                        <input 
+                            id="cv" 
+                            type="file"
+                            name= "cv">
+                    </div>
+                </div>
+            </form>
+            <div class="submit">
+                <button>Apply Now</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
